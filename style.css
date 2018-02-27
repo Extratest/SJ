@@ -308,6 +308,36 @@ img.ingri {
 	margin: 0 auto;
 	text-align: left;
 }
+.resizable {
+    resize: both;
+    overflow: hidden;
+    border: 1px solid #c8c6c6;
+}
+.two {
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin-right: 2%;
+	resize:both;
+}
+.two:nth-child(even) {
+	margin-right: 0;
+}
+.two label {
+	display: block;
+	font-weight: 700;
+	color: #c9a131;
+	text-align: left;
+}
+.two input, .two select, .two textarea {
+	width: 100%;
+	border: 1px solid #c8c6c6;
+	background: rgba(255,255,255,0.50);
+	padding: 8px;
+	margin-bottom: 20px;
+	outline: 0;
+	resize:both;
+}
 .one {
 	width: 49%;
 	float: left;
