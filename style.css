@@ -360,9 +360,9 @@ img.ingri {
 	margin-bottom: 20px;
 	outline: 0;
 }
-a.book {
+a.book, input.book{
 	width: 200px;
-	height: 36px;
+	height: 50px;
 	line-height: 36px;
 	text-align: center;
 	display: block;
