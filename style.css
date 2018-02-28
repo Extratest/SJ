@@ -105,7 +105,7 @@ nav {
 	margin-top: 45px;
 }
 .headesocial i {
-	color: #dab33e;
+	color: black;
 	margin: 0 5px;
 }
 .headesocial i:hover{color:#fff;}
@@ -131,12 +131,14 @@ nav ul li a:hover{border-top:3px solid rgba(255,255,255,0.80); transition:all 0.
 	padding: 220px 0 140px;
 	text-align: center;
 	position: relative;
+	height: 800px
 }
 #banner h1 {
 	font-family: 'Yeseva One', cursive;
 	font-size: 90px;
 	line-height: 120%;
-	color: #fff;
+	color: #b32735;
+	text-shadow: 2px 2px #000000;
 }
 #banner h1 span {
 	color: #14cfd1;
@@ -160,8 +162,8 @@ nav ul li a:hover{border-top:3px solid rgba(255,255,255,0.80); transition:all 0.
 	border: 1px solid #000;
 }
 #banner a.menu {
-	background: rgba(255,255,255,0.30);
-	border: 1px solid #fff;
+	background: rgba(0,0,0,0.50);
+	border: 1px solid black;
 }
 #banner a:hover, #banner a.menu:hover {
 	background: #000;
@@ -189,7 +191,7 @@ img.dish {
 	margin-top: 60px;
 }
 #ingredients {
-	background: url(images/ingridiants.jpg) no-repeat center center;
+	background: url(images/success.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 100px 0;
 }
