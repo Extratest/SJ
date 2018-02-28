@@ -3,6 +3,12 @@
 <head>
 <meta charset="utf-8">
 <title>Restaurants</title>
+<script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
+<script>
+  UPLOADCARE_LOCALE = "es";
+  UPLOADCARE_TABS = "file url facebook gdrive gphotos dropbox instagram evernote flickr skydrive";
+  UPLOADCARE_PUBLIC_KEY = "296e9e0d38da6a10a76b";
+</script>
 
 <!--META-->
 <meta name="viewport" content="width=device-width initial-scale=1.0">
@@ -44,7 +50,7 @@
                     	<ul>                                              
                         	<li class="menu-item active"><a href="#banner" data-scroll>Home</a></li>
                         	<li class="menu-item"><a href="#dish" data-scroll>About</a></li>
-                            <li class="menu-item"><a href="#ingredients" data-scroll>TEST2</a></li>
+                            <li class="menu-item"><a href="#ingredients" data-scroll>TEST27</a></li>
                             <li class="menu-item"><a href="#menu" data-scroll>Menu</a></li>
                             <li class="menu-item"><a href="#review" data-scroll>Reviews</a></li>
                             <li class="menu-item"><a href="#contact" data-scroll>Reservations</a></li>
@@ -208,7 +214,7 @@ for the right food</h1>
                    <img class="ingridpatrn" src="images/dishdottm.png" alt=""/>
                    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.<br><br>
 Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
-                   <form action="https://getsimpleform.com/messages?form_api_token=88e7c6fb50ffa9ab6e6b998d40695823" method="POST" class="clearfix">
+                   <form action="https://formspree.io/extraterra1@gmail.com" method="POST" class="clearfix">
                    	<input type="hidden" name="redirect_to" value="https://extratest.github.io/success"/>
                     <div class="one">
                     	<label>Name</label>
@@ -226,7 +232,8 @@ Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! St
                         <textarea class="two" style="height:100px; width: 100%;" type="text" placeholder="escribe aca" name="texto"></textarea>
                         </div>
                     <div class="two">
-                        <input type="file" name="archivo">
+                
+                        <input type="hidden" role="uploadcare-uploader" name="content" data-public-key="296e9e0d38da6a10a76b" data-images-only />
                     </div>
 
 
