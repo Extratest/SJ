@@ -60,7 +60,7 @@ body {
 h2 {
 	font-family: 'Yeseva One', cursive;
 	font-size: 36px;
-	color: #cc9900;
+	color: #000000;
 	line-height: 36px;
 	text-align: center;
 }
@@ -105,10 +105,10 @@ nav {
 	margin-top: 45px;
 }
 .headesocial i {
-	color: black;
+	color: white;
 	margin: 0 5px;
 }
-.headesocial i:hover{color:#fff;}
+.headesocial i:hover{color:#dbdbdb;}
 nav ul li {
 	display: inline-block;
 	padding: 0 0 0 45px;
@@ -126,7 +126,7 @@ nav ul li a {
 }
 nav ul li a:hover{border-top:3px solid rgba(255,255,255,0.80); transition:all 0.5s;}
 #banner {
-	background: url(images/banner.jpg) no-repeat top center;
+	background: url(images/fondo.jpg) no-repeat top center;
 	background-size: cover;
 	padding: 220px 0 140px;
 	text-align: center;
@@ -137,7 +137,7 @@ nav ul li a:hover{border-top:3px solid rgba(255,255,255,0.80); transition:all 0.
 	font-family: 'Yeseva One', cursive;
 	font-size: 90px;
 	line-height: 120%;
-	color: #b32735;
+	color: #d0d5da;
 	text-shadow: 2px 2px #000000;
 }
 #banner h1 span {
@@ -172,7 +172,7 @@ nav ul li a:hover{border-top:3px solid rgba(255,255,255,0.80); transition:all 0.
 }
 #dish {
 	padding: 50px 0 0 0;
-	background: url(images/pattern.jpg) no-repeat center center;
+	background: url(images/pattern2.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -191,6 +191,11 @@ img.dish {
 	margin-top: 60px;
 }
 #ingredients {
+	background: url(images/ingridiants2.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 100px 0;
+}
+#success {
 	background: url(images/success.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 100px 0;
@@ -227,8 +232,8 @@ img.ingri {
 }
 #menu article h3 {
 	font-family: 'Yeseva One', cursive;
-	color: #c89f2d;
-	border-bottom: 1px solid #e4d7ab;
+	color: #000000;
+	border-bottom: 1px solid #000000;
 	font-size: 21px;
 	padding-bottom: 10px;
 }
@@ -246,7 +251,7 @@ img.ingri {
 	text-indent: -9999px;
 }
 #menu article div {
-	border: 1px solid #e4d7ab;
+	border: 1px solid #000000;
 	margin-bottom: 20px;
 	padding: 5px;
 	position: relative;
@@ -255,7 +260,7 @@ img.ingri {
 	margin-bottom: 0;
 }
 #menu article div h4 {
-	background: #d7bc70;
+	background: #000000;
 	color: #fff;
 	display: inline-block;
 	position: absolute;
@@ -265,7 +270,7 @@ img.ingri {
 	padding: 0 10px;
 }
 #review {
-	background: url(images/review.jpg) no-repeat center center;
+	background: url(images/review2.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 100px 0;
 }
@@ -296,7 +301,7 @@ img.ingri {
 }
 #contact {
 	padding: 100px 0;
-	background: url(images/pattern.jpg) no-repeat center center;
+	background: url(images/pattern2.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -333,7 +338,7 @@ img.ingri {
 }
 .two input, .two select, .two textarea {
 	width: 100%;
-	border: 1px solid #c8c6c6;
+	border: 1px solid black;
 	background: rgba(255,255,255,0.50);
 	padding: 8px;
 	margin-bottom: 20px;
@@ -356,7 +361,7 @@ img.ingri {
 }
 .one input, .one select {
 	width: 100%;
-	border: 1px solid #c8c6c6;
+	border: 1px solid #000000;
 	background: rgba(255,255,255,0.50);
 	padding: 8px;
 	margin-bottom: 20px;
@@ -369,7 +374,7 @@ a.book, input.book{
 	text-align: center;
 	display: block;
 	margin: 0 auto;
-	background: #c9a131;
+	background: #000000;
 	color: #fff;
 }
 .one input:focus {
@@ -549,8 +554,19 @@ if it's not present, don't show loader */
 		-webkit-animation: cssload-rotate2 3.6s infinite linear;
 		-moz-animation: cssload-rotate2 3.6s infinite linear;
 }
-
-
+.sep3 {  
+    margin-top: 100px;   
+}
+.sep2 {  
+    margin-top: 375px;   
+}
+#btnsep {  
+    margin-left: 150px;
+    margin-top: 40px;   
+}
+.sep {  
+    margin-top: 50px;   
+}
 
 @keyframes cssload-rotate {
 	100% {
